@@ -17,10 +17,11 @@ class CenterImage extends Component{
 
     render(){
         return (
+          <div sm="12" md={{ size: 6, offset: 3 }}>>
           <Container>
             <Row>
               <Col xs={6} md={4}>
-                <img src={profileImage} className="rounded-circle" width="300px" height="300px" alt="test"/>
+                <img src={profileImage} className="rounded-circle" width="350px" height="300px" alt="test"/>
               </Col>
               <Col>
               <div className="container jumbotron">
@@ -33,6 +34,7 @@ class CenterImage extends Component{
               </Col>
             </Row>
           </Container>
+          </div>
 
         );
     }

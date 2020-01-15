@@ -8,10 +8,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
   NavbarText
 } from 'reactstrap';
 
@@ -42,23 +38,13 @@ export default class Header extends Component
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <NavLink href="/components/">Components</NavLink>
+                                <NavLink className="nav-link" to="/projects">Projects</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="https://github.com/princeUmbrella">GitHub</NavLink>
                             </NavItem>
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
-                                    Options
-                                </DropdownToggle>
-                                <DropdownMenu right>
-                                    <DropdownItem>Option 1</DropdownItem>
-                                    <DropdownItem divider />
-                                    <DropdownItem>Option 1</DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
                         </Nav>
-                        <NavbarText>Simple Text</NavbarText>
+                        <NavbarText>V 0.1</NavbarText>
                     </Collapse>
                     
                 </Navbar>
