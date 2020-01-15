@@ -7,9 +7,10 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  NavbarText
+  NavbarText, 
+  NavLink
 } from 'reactstrap';
+import {NavLink as ReactLink} from 'react-router-dom';
 
 export default class Header extends Component 
 {
@@ -38,10 +39,10 @@ export default class Header extends Component
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <NavLink className="nav-link" to="/projects">Projects</NavLink>
+                                <ReactLink className="nav-link" to="/projects">Projects</ReactLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/princeUmbrella">GitHub</NavLink>
+                                <NavLink className="nav-link" href="https://github.com/princeUmbrella">GitHub</NavLink>
                             </NavItem>
                         </Nav>
                         <NavbarText>V 0.1</NavbarText>
