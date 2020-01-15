@@ -42,7 +42,14 @@ export default class Header extends Component
                                 <ReactLink className="nav-link" to="/projects">Projects</ReactLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" href="https://github.com/princeUmbrella">GitHub</NavLink>
+                                <NavLink className="nav-link" href="https://github.com/princeUmbrella">
+                                <i class="fa fa-github" aria-hidden="true"></i> {" "}GitHub
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" href="https://www.linkedin.com/in/leoultilahun/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i> {" "}LinkedIn
+                                </NavLink>
                             </NavItem>
                         </Nav>
                         <NavbarText>V 0.1</NavbarText>
