@@ -47,7 +47,7 @@ export default class Header extends Component
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink className="nav-link" href="https://www.linkedin.com/in/leoultilahun/">
+                                <NavLink className="nav-link" href="https://www.linkedin.com/in/leoultilahun">
                                 <i class="fa fa-linkedin" aria-hidden="true"></i> {" "}LinkedIn
                                 </NavLink>
                             </NavItem>
