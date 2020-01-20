@@ -5,7 +5,8 @@ import { Card,
         CardImg, 
         CardText, 
         CardBody, 
-        CardTitle} from 'reactstrap';
+        CardTitle,
+        Button} from 'reactstrap';
 
 // TODO Create another component called card where we can pass the properties then load it inside the projectsComponent.js
 class FlippingCard extends Component
@@ -24,21 +25,17 @@ class FlippingCard extends Component
     render(){
         return(
             <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-            <Card>
-            <CardTitle>Front</CardTitle>
-
-              <CardImg   object src={this.props.frontImage} alt={"profile"}></CardImg>
+            <Card color="dark" text="white" style={{ width: '18rem' }} onClick={this.handleClick}>
+              <CardImg object src={this.props.frontImage} alt={"profile"}></CardImg>
               <CardBody>
-                <button onClick={this.handleClick}>Click to flip</button>
+                <Button color="danger" onClick={this.handleClick}>Click to flip</Button>
               </CardBody>
             </Card>
      
-            <Card>
-            <CardTitle>Back</CardTitle>
-
+            <Card onClick={this.handleClick}>
               <CardImg object src={this.props.backImage} alt={"profile"}></CardImg>
               <CardBody>
-                <button onClick={this.handleClick}>Click to flip</button>
+                <Button color="primary" onClick={this.handleClick}>Click to flip</Button>
               </CardBody>
             </Card>
           </ReactCardFlip>

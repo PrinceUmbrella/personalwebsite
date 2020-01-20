@@ -6,6 +6,8 @@ import {
   Col   
 } from 'reactstrap';
 import profileImage from "../profileimage.jpg";
+import BlinkLable from './blinkComponent';
+
 
 class CenterImage extends Component{
     constructor(props){
@@ -17,7 +19,10 @@ class CenterImage extends Component{
 
     render(){
         return (
-          <div sm="12" md={{ size: 6, offset: 5 }}>>
+          <React.Fragment>
+          <div><BlinkLable label=">"/></div>
+          
+          <div sm="12" md={{ size: 6, offset: 5 }}>
           <Container>
             <Row>
               <Col xs={12} >
@@ -34,6 +39,7 @@ class CenterImage extends Component{
             </Row>
           </Container>
           </div>
+          </React.Fragment>
         );
     }
 

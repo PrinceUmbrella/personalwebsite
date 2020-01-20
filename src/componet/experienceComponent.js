@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 import FlippingCard from './cardComponent';
 import Microsoft from "../MicrosoftLogo.png";
 import ReactLogo from "../react.jpg";
+import GoogleLogo from "../googleLogo.png";
 
-// TODO Create another component called card where we can pass the properties then load it inside the projectsComponent.js
-class Project extends Component
+class Experience extends Component
 {
     constructor() {
         super();
@@ -26,15 +26,15 @@ class Project extends Component
                     <FlippingCard frontImage= {Microsoft} backImage={ReactLogo}/>
                 </div>
                 <div className="col-12 col-md-5 m-1">
-                    <FlippingCard frontImage= {Microsoft} backImage={ReactLogo}/>
+                    <FlippingCard frontImage= {GoogleLogo} backImage={ReactLogo}/>
                 </div>
             </div>
             <div className="row">
                 <div className="col-12 col-md-5 m-1">
-                    <FlippingCard frontImage= {Microsoft} backImage={ReactLogo}/>
+                    <FlippingCard frontImage= {GoogleLogo} backImage={ReactLogo}/>
                 </div>
                 <div className="col-12 col-md-5 m-1">
-                <FlippingCard frontImage= {Microsoft} backImage={ReactLogo}/>
+                    <FlippingCard frontImage= {Microsoft} backImage={ReactLogo}/>
                 </div>
             </div>
             </div>
@@ -42,4 +42,4 @@ class Project extends Component
     }
 }
 
-export default Project;
+export default Experience;

@@ -33,13 +33,13 @@ export default class Header extends Component
     render() {
         return (
             <div>
-                <Navbar color="light" light expand="md">
+                <Navbar style={{backgroundColor: '#000'}} dark expand="md">
                     <NavbarBrand href="/">Leoul Tilahun</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="mr-auto" navbar>
                             <NavItem>
-                                <ReactLink className="nav-link" to="/projects">Projects</ReactLink>
+                                <ReactLink className="nav-link" to="/experience">Work Experiences</ReactLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink className="nav-link" href="https://github.com/princeUmbrella">
