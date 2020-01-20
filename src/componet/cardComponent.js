@@ -25,7 +25,7 @@ class FlippingCard extends Component
     render(){
         return(
             <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
-            <Card color="dark" text="white" style={{ width: '18rem' }} onClick={this.handleClick}>
+            <Card color="dark" text="white" onClick={this.handleClick}>
               <CardImg object src={this.props.frontImage} alt={"profile"}></CardImg>
               <CardBody>
                 <Button color="danger" onClick={this.handleClick}>Click to flip</Button>
