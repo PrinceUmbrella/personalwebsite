@@ -19,6 +19,7 @@
     "react-dom": "^16.12.0",
     "react-flipcard": "^0.2.1",
     "react-flippy": "^0.1.5",
+    "react-helmet": "^5.2.1",
     "react-popper": "^1.3.7",
     "react-redux": "^7.1.3",
     "react-router-dom": "^5.1.2",
