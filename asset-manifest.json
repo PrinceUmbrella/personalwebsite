@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.27fd15f6.chunk.css",
-    "main.js": "/personalwebsite/static/js/main.ffbe19a3.chunk.js",
-    "main.js.map": "/personalwebsite/static/js/main.ffbe19a3.chunk.js.map",
-    "runtime-main.js": "/personalwebsite/static/js/runtime-main.3af19a45.js",
-    "runtime-main.js.map": "/personalwebsite/static/js/runtime-main.3af19a45.js.map",
-    "static/css/2.4e007aa2.chunk.css": "/personalwebsite/static/css/2.4e007aa2.chunk.css",
-    "static/js/2.f73e064e.chunk.js": "/personalwebsite/static/js/2.f73e064e.chunk.js",
-    "static/js/2.f73e064e.chunk.js.map": "/personalwebsite/static/js/2.f73e064e.chunk.js.map",
-    "index.html": "/personalwebsite/index.html",
-    "precache-manifest.4d9abcb8d7a3b3073144013b1271aa2d.js": "/personalwebsite/precache-manifest.4d9abcb8d7a3b3073144013b1271aa2d.js",
-    "service-worker.js": "/personalwebsite/service-worker.js",
-    "static/css/2.4e007aa2.chunk.css.map": "/personalwebsite/static/css/2.4e007aa2.chunk.css.map",
-    "static/css/main.27fd15f6.chunk.css.map": "/personalwebsite/static/css/main.27fd15f6.chunk.css.map",
-    "static/js/2.f73e064e.chunk.js.LICENSE": "/personalwebsite/static/js/2.f73e064e.chunk.js.LICENSE",
-    "static/media/MicrosoftLogo.png": "/personalwebsite/static/media/MicrosoftLogo.48cee99c.png",
-    "static/media/font-awesome.min.css": "/personalwebsite/static/media/fontawesome-webfont.fee66e71.woff",
-    "static/media/googleLogo.png": "/personalwebsite/static/media/googleLogo.a92fd523.png",
-    "static/media/profileimage.jpg": "/personalwebsite/static/media/profileimage.c7de0c05.jpg",
-    "static/media/react.jpg": "/personalwebsite/static/media/react.12f0aa44.jpg"
+    "main.css": "/static/css/main.27fd15f6.chunk.css",
+    "main.js": "/static/js/main.99f11e61.chunk.js",
+    "main.js.map": "/static/js/main.99f11e61.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7c391e98.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7c391e98.js.map",
+    "static/css/2.ba1f5193.chunk.css": "/static/css/2.ba1f5193.chunk.css",
+    "static/js/2.f73e064e.chunk.js": "/static/js/2.f73e064e.chunk.js",
+    "static/js/2.f73e064e.chunk.js.map": "/static/js/2.f73e064e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0a6b9f5e7ea5f5860e4ef4ef8b93a31f.js": "/precache-manifest.0a6b9f5e7ea5f5860e4ef4ef8b93a31f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ba1f5193.chunk.css.map": "/static/css/2.ba1f5193.chunk.css.map",
+    "static/css/main.27fd15f6.chunk.css.map": "/static/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.f73e064e.chunk.js.LICENSE": "/static/js/2.f73e064e.chunk.js.LICENSE",
+    "static/media/MicrosoftLogo.png": "/static/media/MicrosoftLogo.48cee99c.png",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/googleLogo.png": "/static/media/googleLogo.a92fd523.png",
+    "static/media/profileimage.jpg": "/static/media/profileimage.c7de0c05.jpg",
+    "static/media/react.jpg": "/static/media/react.12f0aa44.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3af19a45.js",
-    "static/css/2.4e007aa2.chunk.css",
+    "static/js/runtime-main.7c391e98.js",
+    "static/css/2.ba1f5193.chunk.css",
     "static/js/2.f73e064e.chunk.js",
     "static/css/main.27fd15f6.chunk.css",
-    "static/js/main.ffbe19a3.chunk.js"
+    "static/js/main.99f11e61.chunk.js"
   ]
 }
